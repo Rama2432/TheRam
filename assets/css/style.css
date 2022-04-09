@@ -8,7 +8,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #040404 url("../img/bg3.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -36,9 +36,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+
+
+/* Header */
+
 #header {
   transition: ease-in-out 0.3s;
   position: relative;
@@ -148,12 +149,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/**
-* Desktop Navigation 
-*/
+
+
+/* Navegacióm */
+
 .navbar {
   padding: 0;
   margin-top: 35px;
@@ -272,9 +271,10 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
+
+
+/* General */
+
 section {
   overflow: hidden;
   position: absolute;
@@ -333,9 +333,10 @@ section .container {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
+
+
+/* Sobre mí */
+
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -363,47 +364,10 @@ section .container {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Counts
---------------------------------------------------------------*/
-.counts {
-  padding: 70px 0 60px;
-}
-.counts .count-box {
-  padding: 30px 30px 25px 30px;
-  width: 100%;
-  position: relative;
-  text-align: center;
-  background: rgba(255, 255, 255, 0.08);
-}
-.counts .count-box i {
-  position: absolute;
-  top: -25px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 24px;
-  background: rgba(255, 255, 255, 0.1);
-  padding: 12px;
-  color: #FCAF17;
-  border-radius: 50px;
-  line-height: 0;
-}
-.counts .count-box span {
-  font-size: 36px;
-  display: block;
-  font-weight: 600;
-  color: #fff;
-}
-.counts .count-box p {
-  padding: 0;
-  margin: 0;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-}
 
-/*--------------------------------------------------------------
-# Skills
---------------------------------------------------------------*/
+
+/* Skills */
+
 .skills .progress {
   height: 60px;
   display: block;
@@ -433,9 +397,10 @@ section .container {
   background-color: #FCAF17;
 }
 
-/*--------------------------------------------------------------
-# Interests
---------------------------------------------------------------*/
+
+
+/* Herramientas */
+
 .interests .icon-box {
   display: flex;
   align-items: center;
@@ -460,77 +425,10 @@ section .container {
   background: rgba(255, 255, 255, 0.12);
 }
 
-/*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
-.testimonials .testimonials-carousel, .testimonials .testimonials-slider {
-  overflow: hidden;
-}
-.testimonials .testimonial-item {
-  box-sizing: content-box;
-  min-height: 320px;
-}
-.testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
-  margin: -40px 0 0 40px;
-  position: relative;
-  z-index: 2;
-  border: 6px solid rgba(255, 255, 255, 0.12);
-}
-.testimonials .testimonial-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 10px 0 5px 45px;
-  color: #fff;
-}
-.testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: #999;
-  margin: 0 0 0 45px;
-}
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: rgba(255, 255, 255, 0.25);
-  font-size: 26px;
-}
-.testimonials .testimonial-item .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-.testimonials .testimonial-item .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
-}
-.testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 0 15px 0 15px;
-  padding: 20px 20px 60px 20px;
-  background: rgba(255, 255, 255, 0.1);
-  position: relative;
-  border-radius: 6px;
-  position: relative;
-  z-index: 1;
-}
-.testimonials .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-.testimonials .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  opacity: 1;
-  background-color: rgba(255, 255, 255, 0.3);
-}
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #FCAF17;
-}
 
-/*--------------------------------------------------------------
-# Resume
---------------------------------------------------------------*/
+
+/* Resume */
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -582,16 +480,17 @@ section .container {
   border: 2px solid #FCAF17;
 }
 
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
-.services .icon-box {
+
+
+/* Habilidades */
+
+.habilidades .icon-box {
   text-align: center;
   background: rgba(204, 204, 204, 0.1);
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
 }
-.services .icon-box .icon {
+.habilidades .icon-box .icon {
   margin: 0 auto;
   width: 64px;
   height: 64px;
@@ -604,11 +503,11 @@ section .container {
   margin-bottom: 20px;
   transform-style: preserve-3d;
 }
-.services .icon-box .icon i {
+.habilidades .icon-box .icon i {
   color: #fff;
   font-size: 28px;
 }
-.services .icon-box .icon::before {
+.habilidades .icon-box .icon::before {
   position: absolute;
   content: "";
   left: -8px;
@@ -620,39 +519,40 @@ section .container {
   transition: all 0.3s ease-out 0s;
   transform: translateZ(-1px);
 }
-.services .icon-box h4 {
+.habilidades .icon-box h4 {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
 }
-.services .icon-box h4 a {
+.habilidades .icon-box h4 a {
   color: #fff;
 }
-.services .icon-box p {
+.habilidades .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
-.services .icon-box:hover {
+.habilidades .icon-box:hover {
   background: #FCAF17;
   border-color: #FCAF17;
 }
-.services .icon-box:hover .icon {
+.habilidades .icon-box:hover .icon {
   background: #fff;
 }
-.services .icon-box:hover .icon i {
+.habilidades .icon-box:hover .icon i {
   color: #FCAF17;
 }
-.services .icon-box:hover .icon::before {
+.habilidades .icon-box:hover .icon::before {
   background: #FCAF17;
 }
-.services .icon-box:hover h4 a, .services .icon-box:hover p {
+.habilidades .icon-box:hover h4 a, .habilidades .icon-box:hover p {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
+
+
+/* Portafolio General */
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -789,9 +689,10 @@ section .container {
   right: 15px;
 }
 
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
+
+
+/* Portafolio Detalles */
+
 .portfolio-details {
   padding-top: 40px;
   background: rgba(0, 0, 0, 0.8);
@@ -850,9 +751,10 @@ section .container {
   background-color: #FCAF17;
 }
 
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
+
+
+/* Contacto */
+
 .contact .info-box {
   color: #444444;
   padding: 20px;
@@ -988,33 +890,4 @@ section .container {
   100% {
     transform: rotate(360deg);
   }
-}
-
-/*--------------------------------------------------------------
-# Credits
---------------------------------------------------------------*/
-.credits {
-  position: fixed;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  padding: 15px;
-  text-align: right;
-  font-size: 13px;
-  color: #fff;
-  z-index: 999999;
-}
-@media (max-width: 992px) {
-  .credits {
-    text-align: center;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.8);
-  }
-}
-.credits a {
-  color: #FCAF17;
-  transition: 0.3s;
-}
-.credits a:hover {
-  color: #fff;
 }
