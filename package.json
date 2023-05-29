@@ -1,0 +1,15 @@
+{
+  "name": "theram",
+  "version": "1.0.0",
+  "description": "Hola, acá esta mi portafolio que hice hace unos años he ido actualizando para compatir mi trabajo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react-icons": "^4.8.0"
+  }
+}
